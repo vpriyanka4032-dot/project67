@@ -21,18 +21,25 @@ TECHNOLOGIES & LIBRARIES USED:
   *Scikit-learn (sklearn) – clustering algorithms & metrics
 
 
-PROJECT WORKFLOwW:
+PROJECT WORKFLOW:
+  
+  
   1)Data Preprocessing
         *Data loading and cleaning
         *Feature scaling using StandardScaler
+  
+  
   2)K-Means Clustering
          *Used Elbow Method to find the optimal number of clusters
          *Used Silhouette Score to validate cluster quality
          *Visualized cluster formation
+  
+  
   3)DBSCAN Clustering
           *Applied DBSCAN with tuned parameters (eps and min_samples)
           *Detected noise and non-linear clusters
            *Visualized the resulting clusters
+
 COMPARISON:
       *Compared K-Means and DBSCAN visually and statistically
       *Observed differences in cluster shape and performance
@@ -40,10 +47,13 @@ COMPARISON:
 
 
 RESULTS & OUTPUTS:
+     
      ✔️ K-Means Output:
               *Clear circular clusters
               *Optimal number of clusters chosen using the Elbow method
               *Silhouette score indicates strong separation
+     
+     
      ✔️ DBSCAN Output:
               *Clusters formed based on density
               *Outliers and noise detected automatically
